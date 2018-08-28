@@ -2,11 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-Jetweet-AADF6861-544B-48A3-91CA-1B0CE856FA20</UserSecretsId>
   </PropertyGroup>
 
 
   <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.0-preview1-35029" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0-preview1-35029" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
