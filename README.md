@@ -1,3 +1,23 @@
+##  What is twitter <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/150px-Twitter_bird_logo_2012.svg.png" height="20" />
+Twitter is a free social networking microblogging service that allows registered members to broadcast short posts called tweets. Twitter members can broadcast tweets and follow other users' tweets by using multiple platforms and devices. Tweets and replies to tweets can be sent by cell phone text message, desktop client or by posting at the Twitter.com website. 
+
+## Jetweet
+Jetweet is a mini twitter clone with basic functionalities, Made using .NET CORE and Entity framework technologies
+### Done
+* Authentification
+* Registration
+* Profile section
+* Adding twitts
+* Deleting twitts
+* Editing twitts
+* Password recovery
+* Delete and download user data
+
+### Todo
+* Handling multiple users
+* Ability to change own avatar and cover
+* Select picture from local files
+
 ## Screenhsots
 
 ![sc1](https://user-images.githubusercontent.com/24621701/44754363-70373b00-ab19-11e8-95c4-55127edf5246.png)
