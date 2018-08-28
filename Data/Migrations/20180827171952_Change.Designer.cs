@@ -2,13 +2,14 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Jetweet.Data;
 
 namespace Jetweet.Data.Migrations {
   [DbContext (typeof (ApplicationDbContext))]
-  partial class ApplicationDbContextModelSnapshot : ModelSnapshot {
-    protected override void BuildModel (ModelBuilder modelBuilder) {
+  [Migration ("20180827171952_Change")]
+  partial class Change {
+    protected override void BuildTargetModel (ModelBuilder modelBuilder) {
 #pragma warning disable 612, 618
       modelBuilder
         .HasAnnotation ("ProductVersion", "2.2.0-preview1-35029");
