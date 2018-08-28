@@ -2,7 +2,7 @@
 Twitter is a free social networking microblogging service that allows registered members to broadcast short posts called tweets. Twitter members can broadcast tweets and follow other users' tweets by using multiple platforms and devices. Tweets and replies to tweets can be sent by cell phone text message, desktop client or by posting at the Twitter.com website. 
 
 ## Jetweet
-Jetweet is a mini twitter clone with basic functionalities, Made using .NET CORE and Entity framework technologies
+Jetweet is a mini twitter clone with basic functionalities, Made using ASP.NET CORE and Entity framework technologies
 ### Done
 * Authentification
 * Registration
@@ -17,6 +17,7 @@ Jetweet is a mini twitter clone with basic functionalities, Made using .NET CORE
 * Handling multiple users
 * Ability to change own avatar and cover
 * Select picture from local files
+* Add two factor authentification
 
 ## Screenhsots
 
