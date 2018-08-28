@@ -1,0 +1,31 @@
+@model Jetweet.Models.Tweet
+@{
+  ViewData["Title"] = "Create";
+}
+<div class="row">
+  <div class="col-md-12">
+    <form asp-action="Create">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="form-group">
+        <label asp-for="ImageUrl" class="control-label"></label>
+        <input asp-for="ImageUrl" class="form-control"/>
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+      </div>
+
+      <div class="form-group">
+        <label asp-for="Text" class="control-label"></label>
+        <textarea asp-for="Text" class="form-control" rows="6" cols="48"></textarea>
+        <span asp-validation-for="Text" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-info twt-btn"/>
+      </div>
+    </form>
+  </div>
+</div>
+
+@section Scripts {
+
+@{
+  await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+                                                             }

@@ -1,0 +1,107 @@
+@model IEnumerable<Jetweet.Models.Tweet>
+
+@{ ViewData["Title"] = "Index"; }
+
+<div class="row">
+  <div class="col-md-3">
+    <div class="card">
+      <img class="card-img-top" height="100" src="~/images/cover.jpg" alt="Card image cap">
+      <div class="card-body">
+        <img class="avatar" src="~/images/avatar.jpg" height="60" width="60"/>
+        <h5 class="card-title">@User.Identity.Name</h5>
+        <hr>
+        <div class="row">
+          <div class="col-flw">
+            <center>
+            <font size="2">
+              12
+              <br>follower
+            </font>
+          </div>
+          <div class="col-flw">
+            <center>
+              <font size="2">
+                12
+                <br>following
+              </font>
+            </center>
+          </div>
+          <div class="col-flw">
+            <center>
+              <font size="2">
+                0
+                <br>tweets
+              </font>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  <div class="col-md-6">
+    @foreach (var item in Model)
+    {
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-12 col-avatar">
+            <img class="post-avatar" src="~/images/avatar.jpg" height="60" width="60" style="margin: 15px;"/>
+            <div style="float:right;" class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <form asp-action="Delete" asp-route-id="@item.Id">
+                  <input type="hidden" asp-for="@item.Id"/>
+                  <input type="submit" value="Delete" class="dropdown-item"/>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10" style="margin-left:55px;margin-top:-70px;">
+
+            <div class="col-md-8">
+              <div class="card-header bg-transparent">
+                <b>@User.Identity.Name</b>
+              </div>
+            </div>
+            <div class="card-body">
+              <p style="margin-top:-10px;" class="card-text"> @Html.DisplayFor(modelItem => item.Text)</p>
+              @if (item.ImageUrl != null)
+              {
+                <img class="lozad" style="width:100%;height:200px;" src="@item.ImageUrl"/>
+              }
+            </div>
+            <div class="card-footer bg-transparent">
+              <div class="row" style="margin-left:10px;">
+                <div class="col-interaction">
+                  <i class="fa fa-comment-o"></i>
+                </div>
+                <div class="col-interaction">
+                  <i class="fa fa-retweet"></i>
+                </div>
+                <div class="col-interaction">
+                  <i class="fa fa-heart-o"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+  <div class="col-md-3">
+    <div class="card mb-3">
+      <div class="card-header bg-transparent">Trends for you</div>
+      <div class="card-body">
+        <p class="card-text trend">#TextTrend1</p>
+        <p class="card-text trend">#TextTrend2</p>
+        <p class="card-text trend">#TextTrend3</p>
+        <p class="card-text trend">#TextTrend4</p>
+        <p class="card-text trend">#TextTrend5</p>
+        <p class="card-text trend">#TextTrend6</p>
+        <p class="card-text trend">#TextTrend7</p>
+      </div>
+      <div class="card-footer bg-transparent">Change preferences</div>
+    </div>
+  </div>
+</div>
