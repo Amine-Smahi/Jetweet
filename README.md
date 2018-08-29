@@ -3,6 +3,24 @@ Twitter is a free social networking microblogging service that allows registered
 
 ## Jetweet
 Jetweet is a mini twitter clone with basic functionalities, Made using ASP.NET CORE and Entity framework technologies
+
+## How to run the project
+The steps are very easy you only have to
+* Check if .NET Core sdk version 2.2 preview1 installed on your system, you can download it from [Here](https://www.microsoft.com/net/download/dotnet-core/2.2) then check if the instalation has gone correctly by typing
+      
+      user$ dotnet --version
+      user$ 2.2.100-preview1
+* Restore the dependencies by typing the commande
+  
+      user$ dotnet restore
+* Finnaly go and run the app by typing
+
+      user$ dotnet run
+* Star the repo and thank you :D , If you want to contribute to the project and make it better, your help is very welcome. 
+
+## Work progress
+The goal is to make it look like the original twitter with it functions
+
 ### Done
 * Authentification
 * Registration
