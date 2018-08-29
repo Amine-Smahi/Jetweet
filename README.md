@@ -63,8 +63,7 @@ The goal is to make it look like the original twitter with it functions
 ![sc7](https://user-images.githubusercontent.com/24621701/44754390-8ba24600-ab19-11e8-8fa5-e7d1096e3869.png)
 
 ## Team
-Developer [Amine Smahi](https://github.com/Amine-Smahi)
-Designer => [Amine Smai](https://github.com/Amine-Smahi)
+proudly made by [Amine Smahi](https://github.com/Amine-Smahi) and support from [Jetlight Studio](http://jetlightstudio.tech/)
 
 ## License
 The project is under [MIT License]() 
