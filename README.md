@@ -37,7 +37,7 @@ The goal is to make it look like the original twitter with it functions
 * Select picture from local files
 * Add two factor authentification
 
-## Screenhsots
+## Screenshots
 
 ![sc1](https://user-images.githubusercontent.com/24621701/44754363-70373b00-ab19-11e8-95c4-55127edf5246.png)
 
@@ -59,3 +59,25 @@ The goal is to make it look like the original twitter with it functions
 
 ![sc7](https://user-images.githubusercontent.com/24621701/44754390-8ba24600-ab19-11e8-8fa5-e7d1096e3869.png)
 
+## License
+The project is under [MIT License]() 
+
+            Copyright (c) 2017 Amine Smahi
+
+            Permission is hereby granted, free of charge, to any person obtaining a copy
+            of this software and associated documentation files (the "Software"), to deal
+            in the Software without restriction, including without limitation the rights
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+            copies of the Software, and to permit persons to whom the Software is
+            furnished to do so, subject to the following conditions:
+
+            The above copyright notice and this permission notice shall be included in all
+            copies or substantial portions of the Software.
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+            SOFTWARE.
