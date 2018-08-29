@@ -16,7 +16,8 @@ The steps are very easy you only have to
 * Finnaly go and run the app by typing
 
       user$ dotnet run
-* Star the repo and thank you :D , If you want to contribute to the project and make it better, your help is very welcome. 
+* ![image](https://user-images.githubusercontent.com/24621701/44811179-dd0b0d80-abcb-11e8-917b-c8bb8e47930f.png)
+ the repo and thank you :D , If you want to contribute to the project and make it better, your help is very welcome. 
 
 ## Work progress
 The goal is to make it look like the original twitter with it functions
