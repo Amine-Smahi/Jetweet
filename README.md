@@ -1,6 +1,9 @@
 ##  What is twitter <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/150px-Twitter_bird_logo_2012.svg.png" height="20" />
 Twitter is a free social networking microblogging service that allows registered members to broadcast short posts called tweets. Twitter members can broadcast tweets and follow other users' tweets by using multiple platforms and devices. Tweets and replies to tweets can be sent by cell phone text message, desktop client or by posting at the Twitter.com website. 
 
+## What is .NET Core
+.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications.
+
 ## Jetweet
 Jetweet is a mini twitter clone with basic functionalities, Made using ASP.NET CORE and Entity framework technologies
 
@@ -58,6 +61,10 @@ The goal is to make it look like the original twitter with it functions
 
 
 ![sc7](https://user-images.githubusercontent.com/24621701/44754390-8ba24600-ab19-11e8-8fa5-e7d1096e3869.png)
+
+## Team
+Developer [Amine Smahi](https://github.com/Amine-Smahi)
+Designer => [Amine Smai](https://github.com/Amine-Smahi)
 
 ## License
 The project is under [MIT License]() 
