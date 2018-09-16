@@ -33,9 +33,8 @@ The goal is to make it look like the original twitter with it functions
 * Editing twitts
 * Password recovery
 * Delete and download user data
-
-### Todo
 * Handling multiple users
+### Todo
 * Ability to change own avatar and cover
 * Select picture from local files
 * Add two factor authentification
